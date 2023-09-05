@@ -15,7 +15,7 @@ import joblib
 import numpy as np
 
 # Load your saved model during app initialization
-model = joblib.load(r"clf_svc_model.pkl")
+model = joblib.load("clf_svc_model.pkl")
 
 # Define the Streamlit app
 st.title("Breast Cancer Risk Prediction")
